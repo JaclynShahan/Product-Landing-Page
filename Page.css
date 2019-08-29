@@ -1,0 +1,108 @@
+#header-img {
+    height: 50px;
+    width: 400px;
+    margin: auto;
+  
+  }
+  
+  #nav-bar {
+  position: fixed;
+   height: 80px;
+    width: 100vw;
+    background-color: white;
+   z-index: 1;
+   
+  }
+  .nav-link {
+    font-size: 20px;
+    font-family: helvetica;
+   margin-left: 150px;
+  
+   
+    
+    
+  }
+  
+  #form-container {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+  
+  }
+  
+  #a {
+  display: flex; 
+    flex-direction: row;
+    height: 25%;
+    width:100vw;
+    background-color: red;
+  }
+  
+  #b {
+    height: 25%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+  }
+  #c {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 100vw;
+    background-color: green;
+  }
+  @media (max-height: 800px) {
+  
+  #video {
+    display: flex;
+    flex-direction: row;
+    height: 35%;
+    width: 50vw;
+    flex-shrink: 1;
+    margin-top: 50px;
+  
+  }
+  }
+  
+  #form {
+  position: relative;
+   padding-top: 100px; 
+    height: 200px;
+    width: 100%;
+    margin-left: 50px;
+  }
+  
+  #email {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  
+  #submit {
+    width: 90px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+  
+  #submit:hover {
+    background-color: green;
+  }
+  
+  #email-label {
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  
+   
+  }
+  
